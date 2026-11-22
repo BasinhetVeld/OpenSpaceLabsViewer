@@ -1,1 +1,0 @@
-import{i as e,n as t,r as n,t as r}from"./project-C1NNLr2u.js";await e({canvas:t(),worldType:`Game`,viewmodeConstructor:n,project:r});

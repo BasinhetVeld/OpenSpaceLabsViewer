@@ -1,4 +1,5 @@
 {
+  "initialWaypoint": "start",
   "waypoints": [
       {
         "name": "start",
