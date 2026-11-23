@@ -1,118 +1,333 @@
 {
   "initialViewpoint": {
-    "position": [-2.05, 19.86, 24.39],
-    "eulerRotation": [0.56, -3.23, 0.0]
+    "position": [
+      -11.518427305791166,
+      25.753914269002706,
+      15.21190948107219
+    ],
+    "eulerRotation": [
+      0.8872978737584551,
+      2.34397934375868,
+      -5.274139535056467e-16
+    ]
   },
   "pointsOfInterest": [
-      {
-        "id": "courtyard-overview",
-        "name": "Courtyard overview",
-        "position": [4.0, 1.2, 10.0],
-        "viewpoint": {
-          "position": [-2.05, 19.86, 24.39],
-          "eulerRotation": [0.56, -3.23, 0.0]
-        }
-      },
-      {
-        "id": "aerial-overview",
-        "name": "Aerial overview",
-        "position": [-4.0, 1.2, -4.0],
-        "viewpoint": {
-          "position": [-4.59, 38.51, -14.48],
-          "eulerRotation": [1.10, -6.05, 0.0]
-        }
-      },
-      {
-        "id": "fountain-closeup",
-        "name": "Fountain close-up",
-        "position": [0.0, 2.2, 3.0],
-        "viewpoint": {
-          "position": [-0.36, 5.40, 4.77],
-          "eulerRotation": [-0.29, -3.18, 0.0]
-        }
+    {
+      "id": "courtyard-overview",
+      "name": "Courtyard overview",
+      "position": [
+        0.775038480758667,
+        1.2000000476837158,
+        -5.976445198059082
+      ],
+      "viewpoint": {
+        "position": [
+          -0.3687758169149612,
+          14.161416299690629,
+          20.45511281151712
+        ],
+        "eulerRotation": [
+          0.30184031778531134,
+          3.0513382371189985,
+          -9.156984230469449e-15
+        ]
       }
+    },
+    {
+      "id": "aerial-overview",
+      "name": "Aerial overview",
+      "position": [
+        -4,
+        1.2,
+        -4
+      ],
+      "viewpoint": {
+        "position": [
+          -6.632577002554346,
+          29.21790168857192,
+          2.8786276455008024
+        ],
+        "eulerRotation": [
+          1.3633589256232581,
+          1.5031750459446047,
+          -5.6601974444136646e-15
+        ]
+      }
+    },
+    {
+      "id": "fountain-closeup",
+      "name": "Fountain close-up",
+      "position": [
+        0,
+        2.2,
+        3
+      ],
+      "viewpoint": {
+        "position": [
+          -2.856039987074872,
+          7.703127226232038,
+          10.011500839296025
+        ],
+        "eulerRotation": [
+          0.5212818705237625,
+          2.636649059515806,
+          -1.680349117199748e-15
+        ]
+      }
+    }
   ],
   "objects": [
     {
       "name": "Fountain",
-      "position": [0.0, 0.0, 0.0],
-      "eulerRotation": [0.0, 0.0, 0.0],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "eulerRotation": [
+        0,
+        0,
+        0
+      ],
       "meshes": [
         {
           "name": "PeireneFountain_4k",
-          "position": [0.0, 0.0, 0.0],
-          "eulerRotation": [0.0, 0.0, 0.0],
-          "assetPath": "assets/PeireneFountain/PeireneFountain_4k.gltf"
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "eulerRotation": [
+            0,
+            0,
+            0
+          ],
+          "assetPath": "assets/PeireneFountain/PeireneFountain_4k.gltf",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "id": "entity-2"
         }
-      ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": "entity-1"
     },
     {
       "name": "Sky Sphere",
-      "position": [0.0, 0.0, 0.0],
-      "eulerRotation": [0.0, 0.0, 0.0],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "eulerRotation": [
+        0,
+        0,
+        0
+      ],
       "meshes": [
         {
           "name": "SkySphere",
-          "position": [0.0, 0.0, 0.0],
-          "eulerRotation": [0.0, 0.0, 0.0],
-          "scale": [50.0, 50.0, 50.0],
-          "assetPath": "assets/PeireneFountain/SkyBox.gltf"
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "eulerRotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            50,
+            50,
+            50
+          ],
+          "assetPath": "assets/PeireneFountain/SkyBox.gltf",
+          "id": "entity-4"
         }
-      ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": "entity-3"
     },
     {
       "name": "Fountain_HistoricOverlay",
-      "position": [0.0, 0.1, 0.0],
-      "eulerRotation": [0.0, 0.0, 0.0],
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "eulerRotation": [
+        0,
+        0,
+        0
+      ],
       "layer": "historic",
       "meshes": [
         {
           "name": "Floor",
-          "position": [0.0, 0.0, 0.0],
-          "eulerRotation": [0.0, 0.0, 0.0],
-          "assetPath": "assets/PeireneFountain/Floor.gltf"
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "eulerRotation": [
+            0,
+            0,
+            0
+          ],
+          "assetPath": "assets/PeireneFountain/Floor.gltf",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "id": "entity-6"
         },
         {
           "name": "WallRight",
-          "position": [0.0, 0.0, 0.0],
-          "eulerRotation": [0.0, 0.0, 0.0],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "eulerRotation": [
+            0,
+            0,
+            0
+          ],
           "assetPath": "assets/PeireneFountain/Wall01.gltf",
           "cullPlane": {
-            "origin": [10.0, 6.0, 2.0],
-            "normal": [-1.0, 0.0, 0.0]
-          }
+            "origin": [
+              10,
+              6,
+              2
+            ],
+            "normal": [
+              -1,
+              0,
+              0
+            ]
+          },
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "id": "entity-7"
         },
         {
           "name": "WallBack",
-          "position": [0.0, 0.0, 0.0],
-          "eulerRotation": [0.0, 0.0, 0.0],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "eulerRotation": [
+            0,
+            0,
+            0
+          ],
           "assetPath": "assets/PeireneFountain/Wall02.gltf",
           "cullPlane": {
-            "origin": [0.0, 6.0, 12.0],
-            "normal": [0.0, 0.0, -1.0]
-          }
+            "origin": [
+              0,
+              6,
+              12
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ]
+          },
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "id": "entity-8"
         },
         {
           "name": "WallFront",
-          "position": [0.0, 0.0, 0.0],
-          "eulerRotation": [0.0, 0.0, 0.0],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "eulerRotation": [
+            0,
+            0,
+            0
+          ],
           "assetPath": "assets/PeireneFountain/Wall03.gltf",
           "cullPlane": {
-            "origin": [0.0, 6.0, -7.0],
-            "normal": [0.0, 0.0, 1.0]
-          }
+            "origin": [
+              0,
+              6,
+              -7
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ]
+          },
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "id": "entity-9"
         },
         {
           "name": "WallLeft",
-          "position": [0.0, 0.0, 0.0],
-          "eulerRotation": [0.0, 0.0, 0.0],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "eulerRotation": [
+            0,
+            0,
+            0
+          ],
           "assetPath": "assets/PeireneFountain/Wall04.gltf",
           "cullPlane": {
-            "origin": [-10.0, 7.0, 2.0],
-            "normal": [1.0, 0.0, 0.0]
-          }
+            "origin": [
+              -10,
+              7,
+              2
+            ],
+            "normal": [
+              1,
+              0,
+              0
+            ]
+          },
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "id": "entity-10"
         }
-      ]
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "id": "entity-5"
     }
   ]
 }
