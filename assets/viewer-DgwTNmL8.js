@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./project-DU8mmaQ3.js";var i=t();await n({canvas:i,levelToolbarLayout:i.parentElement,worldType:`Game`,viewmodeConstructor:e,project:r});
